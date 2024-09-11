@@ -30,10 +30,22 @@
     transition: filter 300ms;
     filter: drop-shadow(0 0 10px hsl(274, 93%, 63%));
     animation: pulse 2s infinite;
+  }
+}
 
-    /* &:hover {
-      filter: drop-shadow(0 0 2em hsl(274, 93%, 63%));
-    } */
+.networks {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+
+  a {
+    text-decoration: none;
+
+    img {
+      height: 25px;
+      filter: invert(1);
+    }
   }
 }
 
