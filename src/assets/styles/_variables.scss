@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Emelind';
+  src: url('/fonts/Emelind.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/SpaceGrotesk-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  background-color: #121212;
+  scroll-behavior: smooth;
+
+  :root {
+      --purple: hsl(274, 93%, 63%);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      font-family: 'Emelind', sans-serif;
+  }
+
+  p, a {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+}
